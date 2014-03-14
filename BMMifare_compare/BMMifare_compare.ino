@@ -1,5 +1,4 @@
 
-
 #include <Wire.h>
 #include <Adafruit_NFCShield_I2C.h>
 
@@ -95,7 +94,7 @@ void loop(void) {
         }
       }
       else {
-        //       Serial.println("NO HEADDRESS MATCHED, GO BACK TO INDIA, YOU INDIAN");
+        //       Serial.println("NO HEADDRESS MATCHED");
       }
 
     }
